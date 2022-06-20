@@ -10,8 +10,5 @@ require_once __DIR__."/partials/header.php";
 
 <a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/php-oop-2/products.php">Consulta i Prodotti</a>
 
-<?php 
-
-require_once __DIR__."/partials/footer.php"
-
-?>
+</body>
+</html>
