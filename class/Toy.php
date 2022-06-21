@@ -2,24 +2,24 @@
 
 require_once __DIR__."/Product.php";
 
-  class Food extends Product{
+  class Toy extends Product{
 
-    public $ingredients;
+    public $materials;
     public $origin;
     public $productor;
 
-    public function __construct($_animal, $_price, $_description, $_ingredients, $_origin, $_productor){
+    public function __construct($_animal, $_price, $_description, $_materials, $_origin, $_productor){
 
       parent::__construct($_animal, $_price, $_description);
       
-      $this-> ingredients = $_ingredients;
+      $this-> materials = $_materials;
       $this-> origin = $_origin;
       $this-> productor = $_productor;
 
     }
 
-    public function getIngredients(){
-      return $this->ingredients;
+    public function getMaterials(){
+      return $this->materials;
     }
     public function getOrigin(){
       return $this->origin;
@@ -27,7 +27,7 @@ require_once __DIR__."/Product.php";
     public function getProductor(){
       return $this->productor;
     }
-    
+
   }
 
 ?>
