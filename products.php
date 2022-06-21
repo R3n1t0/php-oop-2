@@ -6,8 +6,12 @@ require_once __DIR__."/partials/header.php";
 ?>
 
 
-<main>
-  Prodotti
+<main class="container">
+ 
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+
 </main>
 
 </body>
